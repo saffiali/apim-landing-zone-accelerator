@@ -53,7 +53,8 @@ param functionId string = '123131'
 
 // Variables
 var owner = 'APIM Const Set'
-var location = resourceGroup().location
+param location string = resourceGroup().location
+//var location = resourceGroup().location
 
 
 var apimCSVNetName = 'vnet-apim-cs-${workloadName}-${deploymentEnvironment}-${location}'
