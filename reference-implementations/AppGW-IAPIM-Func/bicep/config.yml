@@ -1,7 +1,7 @@
 AZURE_LOCATION: 'westeurope'
 RESOURCE_NAME_PREFIX: 'safali22'
 ENVIRONMENT_TAG: 'dev'
-DEPLOYMENT_NAME: 'safali-ase-demo-deployment'
+DEPLOYMENT_NAME: 'safali22-ase-demo-deployment'
 VM_USERNAME: 'saffi'
 ACCOUNT_NAME: 'https://dev.azure.com/saffidemos'
 CICD_AGENT_TYPE: 'azuredevops'
