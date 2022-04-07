@@ -49,7 +49,8 @@ param environment string
 // Variables
 //
 var owner = 'APIM Const Set'
-var location = resourceGroup().location
+//var location = resourceGroup().location
+param location string = resourceGroup().location
 
 //
 // Azure Storage
