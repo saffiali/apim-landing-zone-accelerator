@@ -46,7 +46,10 @@ param certificatePassword string
 param appGatewayCertType string
 
 // Variables
-var location = deployment().location
+//var location = deployment().location
+
+param location string = resourceGroup().location
+
 var resourceSuffix = '${workloadName}-${environment}-${location}-001'
 var networkingResourceGroupName = 'rg-networking-${resourceSuffix}'
 var sharedResourceGroupName = 'rg-shared-${resourceSuffix}'
